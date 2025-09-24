@@ -1,9 +1,6 @@
 name: Generate Snake
 
-on:
-  schedule:
-    - cron: "0 0 * * *"     # chạy mỗi ngày 00:00 UTC
-  workflow_dispatch:         # cho phép chạy tay
+
 
 jobs:
   build:
